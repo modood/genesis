@@ -12,4 +12,4 @@ nodeModules=(
   github.com/wagoodman/dive                              # exploring each layer in a docker image
 )
 
-for k in ${nodeModules[@]}; do go get $k; done
+for k in ${nodeModules[@]}; do go get -v $k; done

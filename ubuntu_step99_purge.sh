@@ -3,11 +3,7 @@
 dpkg --get-selections | grep firefox
 
 aptPackages=(
-  firefox
-  firefox-locale-en
-  unity-scope-firefoxbookmarks
   xul-ext-ubufox
-
   libappstream3
   snapd
   unity-webapps-common
@@ -32,6 +28,8 @@ aptPackages=(
 )
 
 for k in ${aptPackages[@]}; do sudo apt purge -y $k; done
+sudo apt purge `dpkg --get-selections | grep firefox | awk '{print $1}'`
+sudo apt purge `dpkg --get-selections | grep libreoffice | awk '{print $1}'`
 
 sudo apt autoremove -y
 
