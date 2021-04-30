@@ -10,6 +10,12 @@ nodeModules=(
   github.com/itchyny/bed/cmd/bed                         # binary editor
   github.com/jingweno/ccat                               # colorizing cat
   github.com/wagoodman/dive                              # exploring each layer in a docker image
+  github.com/howeyc/ledger/cmd/ledger                    # Command line double-entry accounting program
+  github.com/howeyc/ledger/cmd/lweb                      # Command line double-entry accounting program
+  github.com/modood/btckeygen                            # exploring each layer in a docker image
+  github.com/modood/xmrkeygen                            # exploring each layer in a docker image
+  github.com/btcsuite/btcd/cmd/btcctl                    # command line utility that can be used to both control and query btcd via RPC
+  github.com/swaggo/swag/cmd/swag                        # Automatically generate RESTful API documentation with Swagger 2.0 for Go.
 )
 
 for k in ${nodeModules[@]}; do go get -v $k; done

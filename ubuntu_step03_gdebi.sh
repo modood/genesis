@@ -4,7 +4,7 @@ aptCache=/var/cache/apt/archives
 debPackages=(
   http://cdn2.ime.sogou.com/dl/index/1524572264/sogoupinyin_2.2.0.0108_amd64.deb
   https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-  https://cdn.mysql.com//Downloads/MySQLGUITools/mysql-workbench-community_8.0.16-1ubuntu18.04_amd64.deb
+  https://cdn.mysql.com//Downloads/MySQLGUITools/mysql-workbench-community_8.0.21-1ubuntu20.04_amd64.deb
 )
 for i in ${debPackages[@]};
 do

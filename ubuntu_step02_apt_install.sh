@@ -58,10 +58,12 @@ aptPackages=(
   exuberant-ctags             # ctags, ctags-exuberant                build tag file indexes of source code definitions
   ansible                     # ansible, ansible-playbook, ...        Configuration management, deployment, and task execution system
   fcitx                       # fcitx, fcitx-configtool, ...          Flexible Input Method Framework
+  xclip                       # xclip, xclip-copyfile, ...            command line interface to X selections
 
   i3                          # i3, i3lock, i3-dmenu-desktop, ...     metapackage (i3 window manager, screen locker, menu, statusbar)
   suckless-tools              # dmenu, slock, wmname, ...             simple commands for minimalistic window managers
   flameshot                   # flameshot                             Powerful yet simple-to-use screenshot software
+  rofi                        # rofi, rofi-theme-selector             window switcher, run dialog and dmenu replacement
 
   mycli                       # mycli                                 CLI for MySQL/MariaDB
   mongodb-clients             # mongo                                 object/document-oriented database (client apps)
