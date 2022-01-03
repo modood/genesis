@@ -20,6 +20,11 @@ aptPackages=(
   unzip                       # unzip                                 De-archiver for .zip files
   rar                         # rar                                   Archiver for .rar files
   unrar                       # unrar                                 Unarchiver for .rar files (non-free version)
+  tree                        # tree                                  displays an indented directory tree, in color
+
+  fcitx                       #                                       Flexible Input Method Framework
+  fcitx-googlepinyin          #                                       Fcitx wrapper for Google Pinyin IM engine
+  im-config                   # im-config, im-launch                  Input method configuration framework
 
   mercurial                   # hg                                    easy-to-use, scalable distributed version control system
   binutils                    # as, ar, ...                           GNU assembler, linker and binary utilities
@@ -46,9 +51,11 @@ aptPackages=(
   colordiff                   # colordiff                             tool to colorize 'diff' output
   bwm-ng                      # bwm-ng                                small and simple console-based bandwidth monitor
   corkscrew                   # corkscrew                             tunnel TCP connections through HTTP proxies
+  proxychains-ng              # proxychains4                          proxychains ng (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies
 
   python-pip                  # pip, pip2                             alternative Python package installer
   python3-pip                 # pip3                                  alternative Python package installer - Python 3 version of the package
+  pipenv                      # pipenv, pipenv-resolver, pewtwo       Python's officially recommended packaging tool
   tmux                        # tmux                                  terminal multiplexer
   zsh                         # zsh                                   shell with lots of features
   autojump                    # autojump                              shell extension to jump to frequently used directories
@@ -75,6 +82,7 @@ aptPackages=(
   vlc                         # vlc                                   multimedia player and streamer
   libreoffice                 # writer, calc, impress, draw, ...      office productivity suite (metapackage)
   virtualbox                  # virtualbox, virtualbox-qt, ...        x86 virtualization solution - base binaries
+  sqlitebrowser               # sqlitebrowser                         GUI editor for SQLite databases
 
   docker-ce
   docker-ce-cli

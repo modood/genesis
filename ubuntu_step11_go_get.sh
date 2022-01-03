@@ -12,8 +12,8 @@ nodeModules=(
   github.com/wagoodman/dive                              # exploring each layer in a docker image
   github.com/howeyc/ledger/cmd/ledger                    # Command line double-entry accounting program
   github.com/howeyc/ledger/cmd/lweb                      # Command line double-entry accounting program
-  github.com/modood/btckeygen                            # exploring each layer in a docker image
-  github.com/modood/xmrkeygen                            # exploring each layer in a docker image
+  github.com/modood/btckeygen                            # A very simple and easy to use bitcoin(btc) key/wallet generator
+  github.com/modood/xmrkeygen                            # A very simple and easy to use monero(xmr) key/wallet generator
   github.com/btcsuite/btcd/cmd/btcctl                    # command line utility that can be used to both control and query btcd via RPC
   github.com/swaggo/swag/cmd/swag                        # Automatically generate RESTful API documentation with Swagger 2.0 for Go.
 )
