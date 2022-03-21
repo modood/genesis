@@ -11,6 +11,6 @@ if [ ! -d $HOME/.gvm ]; then
   sed -i "s/https:\/\/go.googlesource.com\/go/http:\/\/github.com\/golang\/go/g" $HOME/.gvm/scripts/install
   gvm install go1.4 -B
   gvm use go1.4
-  gvm install go1.16
-  gvm use go1.16 --default
+  gvm install go1.18
+  gvm use go1.18 --default
 fi
