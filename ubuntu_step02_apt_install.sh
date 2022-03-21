@@ -51,7 +51,9 @@ aptPackages=(
   colordiff                   # colordiff                             tool to colorize 'diff' output
   bwm-ng                      # bwm-ng                                small and simple console-based bandwidth monitor
   corkscrew                   # corkscrew                             tunnel TCP connections through HTTP proxies
+# proxychains                 # proxychains3                          proxy chains - redirect connections through proxy servers
   proxychains-ng              # proxychains4                          proxychains ng (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies
+  tor                         # tor                                   anonymizing overlay network for TCP
 
   python-pip                  # pip, pip2                             alternative Python package installer
   python3-pip                 # pip3                                  alternative Python package installer - Python 3 version of the package
