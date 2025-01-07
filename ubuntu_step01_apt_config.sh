@@ -13,6 +13,8 @@ aptRepositories=(
   ppa:jonathonf/vim # vim
   ppa:git-core/ppa # git
   ppa:ansible/ansible # ansible
+  ppa:ubuntuhandbook1/mpv # mpv
+  ppa:obsproject/obs-studio # obs-studio
   "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" # docker-ce
 )
 for ((i = 0; i < ${#aptRepositories[@]}; i++));

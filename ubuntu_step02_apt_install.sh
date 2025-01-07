@@ -60,6 +60,7 @@ aptPackages=(
   pipenv                      # pipenv, pipenv-resolver, pewtwo       Python's officially recommended packaging tool
   tmux                        # tmux                                  terminal multiplexer
   zsh                         # zsh                                   shell with lots of features
+  zssh                        # zssh, ztelnet                         interactive file transfers over ssh
   autojump                    # autojump                              shell extension to jump to frequently used directories
   ack-grep                    # ack, ack-grep                         grep-like program specifically for large source trees
   vim                         # vim                                   Vi IMproved - enhanced vi editor
@@ -81,10 +82,15 @@ aptPackages=(
 
   usb-creator-gtk             # usb-creator-gtk                       create a startup disk using a CD or disc image (for GNOME)
   transmission                # transmission-gtk                      lightweight BitTorrent client
+  mpv                         # mpv                                   video player based on MPlayer/mplayer2
   vlc                         # vlc                                   multimedia player and streamer
   libreoffice                 # writer, calc, impress, draw, ...      office productivity suite (metapackage)
   virtualbox                  # virtualbox, virtualbox-qt, ...        x86 virtualization solution - base binaries
   sqlitebrowser               # sqlitebrowser                         GUI editor for SQLite databases
+
+  v4l2loopback-dkms           #                                       Source for the v4l2loopback driver (DKMS)
+  ffmpeg                      # ffmpeg, ffplay, ffprobe, ...          Tools for transcoding, streaming and playing of multimedia files
+  obs-studio                  # obs                                   recorder and streamer for live video content
 
   docker-ce
   docker-ce-cli

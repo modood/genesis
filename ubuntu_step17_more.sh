@@ -13,6 +13,7 @@ sudo chmod +x /usr/local/bin/rrtop
 # - https://kubernetes.io/docs/tasks/tools/install-kubectl/
 sudo wget https://storage.googleapis.com/kubernetes-release/release/v1.19.0/bin/linux/amd64/kubectl -O /usr/local/bin/kubectl
 sudo chmod +x /usr/local/bin/kubectl
+source <(kubectl completion zsh)
 
 # kubectl-argo-rollouts
 # - This command consists of multiple subcommands which can be used to manage Argo Rollouts.
@@ -34,12 +35,6 @@ curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack
 chmod +x ./kustomize
 sudo mv ./kustomize /usr/local/bin/kustomize
 
-# stern
-# - Tail multiple pods and containers from Kubernetes
-# - https://github.com/wercker/stern
-sudo wget https://github.com/wercker/stern/releases/download/1.11.0/stern_linux_amd64 -O /usr/local/bin/stern
-sudo chmod +x /usr/local/bin/stern
-
 # kubecm
 # - KubeConfig Manager
 # - https://github.com/sunny0826/kubecm
@@ -57,4 +52,18 @@ sudo mkdir /usr/local/lib/kube-prompt
 sudo unzip kube-prompt_v1.0.10_linux_amd64.zip -d /usr/local/lib/kube-prompt
 sudo ln -sf /usr/local/lib/kube-prompt/kube-prompt /usr/local/bin/kube-prompt
 rm kube-prompt_v1.0.10_linux_amd64.zip
+
+# vlogscli
+# - vlogscli is an interactive command-line tool for querying VictoriaLogs.
+wget https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v0.35.0-victorialogs/vlogscli-linux-amd64-v0.35.0-victorialogs.tar.gz
+sudo mkdir /usr/local/lib/vlogscli
+sudo tar -zxvf vlogscli-linux-amd64-v0.35.0-victorialogs.tar.gz -C /usr/local/lib/vlogscli
+sudo ln -sf /usr/local/lib/vlogscli/vlogscli-prod /usr/local/bin/vlogscli
+rm vlogscli-linux-amd64-v0.35.0-victorialogs.tar.gz
+
+# rdr
+# - RDR(redis data reveal) is a tool to parse redis rdbfile
+# - https://github.com/xueqiu/rdr
+sudo wget https://github.com/xueqiu/rdr/releases/download/v0.0.1/rdr-linux -O /usr/local/bin/rdr
+sudo chmod +x /usr/local/bin/rdr
 
