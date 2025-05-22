@@ -21,10 +21,11 @@ aptPackages=(
   unrar                       # unrar                                 Unarchiver for .rar files (non-free version)
   tree                        # tree                                  displays an indented directory tree, in color
 
-  fcitx                       #                                       Flexible Input Method Framework
-  fcitx-googlepinyin          #                                       Fcitx wrapper for Google Pinyin IM engine
+  fcitx5                      # fcitx5, fcitx5-configtool, ...        Next generation of Fcitx Input Method Framework
+  fcitx5-chinese-addons       #                                       Chinese-related addon for fcitx5 (metapackage)
   im-config                   # im-config, im-launch                  Input method configuration framework
 
+  nautilus                    # nautilus                              file manager and graphical shell for GNOME
   mercurial                   # hg                                    easy-to-use, scalable distributed version control system
   binutils                    # as, ar, ...                           GNU assembler, linker and binary utilities
   build-essential             #                                       Informational list of build-essential packages
@@ -55,6 +56,7 @@ aptPackages=(
   corkscrew                   # corkscrew                             tunnel TCP connections through HTTP proxies
   proxychains-ng              # proxychains4                          proxychains ng (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies
   tor                         # tor                                   anonymizing overlay network for TCP
+  ncdu                        # ncdu                                  ncurses disk usage viewer
 
   python3-pip                 # pip3                                  alternative Python package installer - Python 3 version of the package
   pipenv                      # pipenv, pipenv-resolver, pewtwo       Python's officially recommended packaging tool
@@ -62,11 +64,12 @@ aptPackages=(
   zsh                         # zsh                                   shell with lots of features
   zssh                        # zssh, ztelnet                         interactive file transfers over ssh
   autojump                    # autojump                              shell extension to jump to frequently used directories
-  ack-grep                    # ack, ack-grep                         grep-like program specifically for large source trees
+  ack                         # ack                                   grep-like program specifically for large source trees
+  ripgrep                     # rg                                    Recursively searches directories for a regex pattern
   vim                         # vim                                   Vi IMproved - enhanced vi editor
+  vim-gtk3                    # vim.gtk3                              Vi IMproved - enhanced vi editor - with GTK3 GUI
   exuberant-ctags             # ctags, ctags-exuberant                build tag file indexes of source code definitions
   ansible                     # ansible, ansible-playbook, ...        Configuration management, deployment, and task execution system
-  fcitx                       # fcitx, fcitx-configtool, ...          Flexible Input Method Framework
   xclip                       # xclip, xclip-copyfile, ...            command line interface to X selections
 
   i3                          # i3, i3lock, i3-dmenu-desktop, ...     metapackage (i3 window manager, screen locker, menu, statusbar)
@@ -86,6 +89,7 @@ aptPackages=(
   libreoffice                 # writer, calc, impress, draw, ...      office productivity suite (metapackage)
   virtualbox                  # virtualbox, virtualbox-qt, ...        x86 virtualization solution - base binaries
   sqlitebrowser               # sqlitebrowser                         GUI editor for SQLite databases
+  firefox                     # firefox                               Transitional package - firefox -> firefox snap
 
   v4l2loopback-dkms           #                                       Source for the v4l2loopback driver (DKMS)
   ffmpeg                      # ffmpeg, ffplay, ffprobe, ...          Tools for transcoding, streaming and playing of multimedia files
