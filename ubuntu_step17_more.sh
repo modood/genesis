@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# pyenv
+# - Simple Python version management
+# - https://github.com/pyenv/pyenv
+curl https://pyenv.run | bash
+
+# rust, cargo
+# - The Rust Programming Language
+# - https://github.com/rust-lang/rust
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+
 # rrtop
 # -  Redis monitoring (top like) app. rrtop -> [r]ust [r]edis [top]
 # -  https://github.com/wojciech-zurek/rrtop
